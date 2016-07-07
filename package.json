@@ -1,7 +1,7 @@
 {
- "name": "react-transform-boilerplate",
+ "name": "narnia-return-to-deathwater-react",
  "version": "1.0.0",
- "description": "A new Webpack boilerplate with hot reloading React components, and error handling on module and component level.",
+ "description": "Based on the works of one of the greatest fantasy writers of all time, Narnia Solo Games invite the reader into the magical realm of daring children, talking animals, evil witches, Asian the Lion, and noble kings and queens.",
  "scripts": {
    "clean": "rimraf dist",
    "build:webpack": "cross-env NODE_ENV=production webpack --config webpack.config.prod.js",
@@ -11,7 +11,7 @@
  },
  "repository": {
    "type": "git",
-   "url": "https://github.com/gaearon/react-transform-boilerplate.git"
+   "url": "https://github.com/Codaisseur/narnia-return-to-deathwater-react.git"
  },
  "keywords": [
    "react",
@@ -26,12 +26,12 @@
    "babel",
    "react-transform"
  ],
- "author": "Dan Abramov <dan.abramov@me.com> (http://github.com/gaearon)",
- "license": "CC0-1.0",
+ "author": "Codaisseur <teachers@codaisseur.com> (http://github.com/Codaisseur)",
+ "license": "MIT",
  "bugs": {
-   "url": "https://github.com/gaearon/react-transform-boilerplate/issues"
+   "url": "https://github.com/Codaisseur/narnia-return-to-deathwater-react/issues"
  },
- "homepage": "https://github.com/gaearon/react-transform-boilerplate",
+ "homepage": "https://github.com/Codaisseur/narnia-return-to-deathwater-react",
  "devDependencies": {
    "babel-core": "6.10.4",
    "babel-eslint": "5.0.4",
