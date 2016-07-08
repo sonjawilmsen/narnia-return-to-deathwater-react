@@ -1,62 +1,62 @@
 {
-name: "narnia-return-to-deathwater-react",
-version: "1.0.0",
-description: "Based on the works of one of the greatest fantasy writers of all time, Narnia Solo Games invite the reader into the magical realm of daring children, talking animals, evil witches, Asian the Lion, and noble kings and queens.",
-scripts: {
-clean: "rimraf dist",
-build:webpack: "cross-env NODE_ENV=production webpack --config webpack.config.prod.js",
-build: "npm run clean && npm run build:webpack",
-start: "node devServer.js",
-lint: "eslint src"
-},
-repository: {
-type: "git",
-url: "https://github.com/Codaisseur/narnia-return-to-deathwater-react.git"
-},
-keywords: [
-"react",
-"reactjs",
-"boilerplate",
-"hot",
-"reload",
-"hmr",
-"live",
-"edit",
-"webpack",
-"babel",
-"react-transform"
-],
-author: "Codaisseur <teachers@codaisseur.com> (http://github.com/Codaisseur)",
-license: "MIT",
-bugs: {
-url: "https://github.com/Codaisseur/narnia-return-to-deathwater-react/issues"
-},
-homepage: "https://github.com/Codaisseur/narnia-return-to-deathwater-react",
-devDependencies: {
-babel-core: "6.10.4",
-babel-eslint: "5.0.4",
-babel-loader: "6.2.4",
-babel-preset-es2015: "6.9.0",
-babel-preset-react: "6.11.1",
-babel-preset-react-hmre: "1.1.1",
-cross-env: "1.0.8",
-eslint: "1.10.3",
-eslint-plugin-babel: "3.3.0",
-eslint-plugin-react: "3.16.1",
-eventsource-polyfill: "0.9.6",
-express: "^4.13.3",
-rimraf: "^2.4.3",
-webpack: "1.13.1",
-webpack-dev-middleware: "1.6.1",
-webpack-hot-middleware: "2.12.1"
-},
-dependencies: {
-jquery: "^3.0.0",
-lodash: "^4.13.1",
-material-ui: "^0.15.1",
-react: "^15.2.0",
-react-dom: "^15.2.0",
-react-router: "^2.5.2",
-react-tap-event-plugin: "^1.0.0"
-}
+ "name": "narnia-return-to-deathwater-react",
+ "version": "1.0.0",
+ "description": "Based on the works of one of the greatest fantasy writers of all time, Narnia Solo Games invite the reader into the magical realm of daring children, talking animals, evil witches, Asian the Lion, and noble kings and queens.",
+ "scripts": {
+   "clean": "rimraf dist",
+   "build:webpack": "cross-env NODE_ENV=production webpack --config webpack.config.prod.js",
+   "build": "npm run clean && npm run build:webpack",
+   "start": "node devServer.js",
+   "lint": "eslint src"
+ },
+ "repository": {
+   "type": "git",
+   "url": "https://github.com/Codaisseur/narnia-return-to-deathwater-react.git"
+ },
+ "keywords": [
+   "react",
+   "reactjs",
+   "boilerplate",
+   "hot",
+   "reload",
+   "hmr",
+   "live",
+   "edit",
+   "webpack",
+   "babel",
+   "react-transform"
+ ],
+ "author": "Codaisseur <teachers@codaisseur.com> (http://github.com/Codaisseur)",
+ "license": "MIT",
+ "bugs": {
+   "url": "https://github.com/Codaisseur/narnia-return-to-deathwater-react/issues"
+ },
+ "homepage": "https://github.com/Codaisseur/narnia-return-to-deathwater-react",
+ "devDependencies": {
+   "babel-core": "6.10.4",
+   "babel-eslint": "5.0.4",
+   "babel-loader": "6.2.4",
+   "babel-preset-es2015": "6.9.0",
+   "babel-preset-react": "6.11.1",
+   "babel-preset-react-hmre": "1.1.1",
+   "cross-env": "1.0.8",
+   "eslint": "1.10.3",
+   "eslint-plugin-babel": "3.3.0",
+   "eslint-plugin-react": "3.16.1",
+   "eventsource-polyfill": "0.9.6",
+   "express": "^4.13.3",
+   "rimraf": "^2.4.3",
+   "webpack": "1.13.1",
+   "webpack-dev-middleware": "1.6.1",
+   "webpack-hot-middleware": "2.12.1"
+ },
+ "dependencies": {
+   "jquery": "^3.0.0",
+   "lodash": "^4.13.1",
+   "material-ui": "^0.15.1",
+   "react": "^15.2.0",
+   "react-dom": "^15.2.0",
+   "react-router": "^2.5.2",
+   "react-tap-event-plugin": "^1.0.0"
+ }
 }
