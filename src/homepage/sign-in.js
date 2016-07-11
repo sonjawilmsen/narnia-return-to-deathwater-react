@@ -1,5 +1,5 @@
 // - form with fields for:
-    // email, 
+    // email,
     // password,
     // password confirmation,
     // signup button
