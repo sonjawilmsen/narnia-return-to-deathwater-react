@@ -7,7 +7,7 @@ import { Router, Route, IndexRoute, Link, browserHistory } from 'react-router';
 import App from './App';
 import HomePage from './homepage/homepage.js';
 import SignIn from './homepage/sign-in.js';
-import SignUp from './homepage/sign-in.js';
+import SignUp from './homepage/sign-up.js';
 
 // set up routes
 
