@@ -1,9 +1,12 @@
 import React from 'react';
+import Dice from './storyline/dice/dice.js';
 
 class App extends React.Component {
     render() {
         return (
-            <h1>Return to Death water!</h1>
+            <div>
+              <Dice/>
+            </div>
         );
     }
 }
