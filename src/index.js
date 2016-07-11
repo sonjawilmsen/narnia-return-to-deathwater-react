@@ -13,10 +13,10 @@ import SignUp from './homepage/sign-in.js';
 
 ReactDOM.render((
   <Router history={browserHistory}>
-	  <Route path="/app" component={App} />
-		<Route path="/" component={HomePage} />
+	  <Route path="/" component={App}>
 		  <IndexRoute component={HomePage} />
-		<Route path="/sign-in" component={SignIn}/>
-		<Route path="/sign-up" component={SignUp}/>
+			<Route path="/sign-in" component={SignIn}/>
+			<Route path="/sign-up" component={SignUp}/>
+		</Route>
   </Router>
 ), document.getElementById('root'));
