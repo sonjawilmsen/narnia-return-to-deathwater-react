@@ -12,7 +12,7 @@ class App extends React.Component {
         <div>
           <h1>Return to Death water!</h1>
           <ItemView />
-        </div>  
+        </div>
       </MuiThemeProvider>
     );
   }
